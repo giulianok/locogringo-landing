@@ -1,0 +1,19 @@
+#locogringo-leave-the-cold-behind {
+  @import "_reset";
+
+  * {
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  & {
+    width: 1200px;
+    border: solid 1px red;
+    margin: auto;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    @import "Header";
+    @import "Promo";
+  }
+}

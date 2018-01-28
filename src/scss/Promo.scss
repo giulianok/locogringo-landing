@@ -1,0 +1,48 @@
+@import "vars";
+
+.Promo {
+  display: flex;
+}
+
+.Bullet-Points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $orange;
+  width: $column-width;
+  color: white;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 33px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, $orange 0%, #fbc940 100%);
+  }
+
+  &-list {
+    li {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      padding-left: 20px;
+      font-size: 1.8em;
+
+      img {
+        width: 30px;
+        height: 26px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.Signup {
+  flex-grow: 1;
+  height: 340px;
+  background: $blue;
+  background-size: cover;
+}

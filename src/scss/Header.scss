@@ -1,0 +1,13 @@
+@import "vars";
+
+.Header {
+  padding: 20px;
+  background: $blue;
+  color: white;
+  text-align: center;
+
+  &-title {
+    font-size: 3em;
+    font-weight: bold;
+  }
+}
