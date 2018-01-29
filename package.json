@@ -8,7 +8,8 @@
     "sass:watch": "npm run sass -- -w",
     "server": "live-server ./src/ --port=3000",
     "start": "concurrently  \" npm run sass:watch \" \" npm run server  \" ",
-    "build": "npm run sass"
+    "build":
+      "npm run sass && postcss --use autoprefixer -o src/css/style.css src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
     "node-sass": "^4.7.2"
   },
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "autoprefixer": "^7.2.5",
+    "live-server": "^1.2.0",
+    "postcss-cli": "^4.1.1"
   }
 }
