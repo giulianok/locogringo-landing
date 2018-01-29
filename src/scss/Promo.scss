@@ -20,7 +20,7 @@
     height: 33px;
     left: 0;
     bottom: 0;
-    background: linear-gradient(to right, $orange 0%, #fbc940 100%);
+    background: linear-gradient(to right, $orange 0%, $orange-light 100%);
   }
 
   &-list {
@@ -46,20 +46,24 @@
   justify-content: flex-end;
   align-items: center;
   height: 340px;
+  padding-bottom: 33px;
   background: $blue;
   background-size: cover;
 }
 
 .Signup-Form {
   display: flex;
+  align-items: center;
   padding: 0 10px;
   margin-right: -10px;
-  background: $orange;
+  background: $orange-light;
+  box-shadow: 0px 32px 79px -37px rgba(0, 0, 0, 1);
 
   &-title {
     order: 2;
     width: 130px;
     transform: scale(1.05, 1);
+    margin: 0 20px;
     font-size: 2.2em;
     text-transform: uppercase;
     font-weight: bold;
@@ -70,19 +74,35 @@
   &-fields {
     order: 1;
     margin: -10px auto;
-    padding: 10px;
+    padding: 10px 15px;
     background: white;
+    box-shadow: 0px 32px 79px -37px rgba(0, 0, 0, 1);
   }
 
   &-field {
+    padding: 5px 0;
     label {
       display: block;
+      font-size: 0.8em;
     }
 
     input {
+      width: 170px;
       border: 0;
       border-bottom: solid 1px black;
-      padding: 5px;
+      padding: 5px 0;
+      font-size: 1.2em;
     }
+  }
+
+  &-button {
+    display: block;
+    margin: 10px auto 0;
+    background: $orange-light;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
   }
 }
