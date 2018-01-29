@@ -1,5 +1,6 @@
+@import "_reset";
 #locogringo-leave-the-cold-behind {
-  @import "_reset";
+  padding: 50px;
 
   * {
     box-sizing: border-box;
@@ -15,5 +16,6 @@
 
     @import "Header";
     @import "Promo";
+    @import "Content";
   }
 }

@@ -41,8 +41,48 @@
 }
 
 .Signup {
+  display: flex;
   flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
   height: 340px;
   background: $blue;
   background-size: cover;
+}
+
+.Signup-Form {
+  display: flex;
+  padding: 0 10px;
+  margin-right: -10px;
+  background: $orange;
+
+  &-title {
+    order: 2;
+    width: 130px;
+    transform: scale(1.05, 1);
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.5;
+  }
+
+  &-fields {
+    order: 1;
+    margin: -10px auto;
+    padding: 10px;
+    background: white;
+  }
+
+  &-field {
+    label {
+      display: block;
+    }
+
+    input {
+      border: 0;
+      border-bottom: solid 1px black;
+      padding: 5px;
+    }
+  }
 }
