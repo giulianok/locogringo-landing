@@ -1,23 +1,28 @@
+@import "_reset";
+@import "_vars";
+
+html,
 body {
-  padding: 20px;
-}
+  padding: 0;
+  max-width: $at-desktop-large;
+  margin: auto;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 14px;
 
-#locogringo-leave-the-cold-behind {
-  @import "_reset";
-
-  * {
-    box-sizing: border-box;
-    position: relative;
-  }
-
-  & {
-    width: 1200px;
-    margin: auto;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-
-    @import "Header";
-    @import "Promo";
-    @import "Content";
+  @media (min-width: $at-desktop-large) {
+    padding: 15px 0;
   }
 }
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  // padding: 20px;
+}
+
+@import "Header";
+@import "Promo";
+@import "Content";

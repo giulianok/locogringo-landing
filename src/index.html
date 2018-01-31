@@ -3,29 +3,23 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="shortcut icon" href="/favicon.ico">
-  <title>Loco Grindo Landing page</title>
+  <title>Loco Gringo Landing page</title>
   <link rel='stylesheet' id='ls-google-fonts-css' href='https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext'
     type='text/css' media='all' />
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css?v=2" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- COPY FROM HERE -->
-
   <div id="locogringo-leave-the-cold-behind">
 
-    <!-- HEADER -->
     <header class="Header">
       <h1 class="Header-title">Let us help you leave the cold behind</h1>
 
-      <!-- PROMO -->
       <div class="Promo">
-        <!-- Bullet Points -->
+
         <aside class="Bullet-Points">
           <ul class="Bullet-Points-list">
             <li>
@@ -37,94 +31,144 @@
           </ul>
         </aside>
 
-        <!-- Sign up -->
-        <section class="Signup" style="background-image: url('./images/back-girl-box.jpg')">
-          <form class="Signup-Form">
-            <!-- Title -->
+        <section class="Signup">
+          <div class="Signup-background mobile" style="background-image: url('./images/back-no-girl-box.jpg')"></div>
+          <div class="Signup-background" style="background-image: url('./images/back-girl-box.jpg')"></div>
+          <form accept-charset="UTF-8" action="https://als89146.infusionsoft.com/app/form/process/390052b66c2ebaab06e02054414771ea"
+            class="Signup-Form" id="inf_form_390052b66c2ebaab06e02054414771ea" method="POST">
+            <input name="inf_form_xid" type="hidden" value="390052b66c2ebaab06e02054414771ea" />
+            <input name="inf_form_name" type="hidden" value="Web Form submitted" />
+            <input name="infusionsoft_version" type="hidden" value="1.68.0.84" />
+
             <h1 class="Signup-Form-title">Sign up for future offers</h1>
 
-            <!-- Field Group -->
             <div class="Signup-Form-fields">
               <div class="Signup-Form-field">
                 <label>Your Name</label>
-                <input type="text" placeholder="John Doe" />
+                <input type="text" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="John Doe" />
               </div>
               <div class="Signup-Form-field">
                 <label>Email</label>
-                <input type="text" placeholder="john@doe.cm" />
+                <input type="text" id="inf_field_Email" name="inf_field_Email" placeholder="john@doe.com" />
               </div>
               <div class="Signup-Form-field">
                 <label>Telephone</label>
-                <input type="text" placeholder="555 555 5555" />
+                <input type="text" id="inf_field_Phone1" name="inf_field_Phone1" placeholder="555 555 5555" />
               </div>
-              <button type="button" class="Signup-Form-button">Submit</button>
+              <button type="submit" class="Signup-Form-button">Submit</button>
             </div>
           </form>
+          <script type="text/javascript" src="https://als89146.infusionsoft.com/app/webTracking/getTrackingCode"></script>
         </section>
       </div>
-
     </header>
 
-    <!-- CONTENT -->
     <main class="Content">
-      <!-- Form -->
+
       <aside class="Explore">
         <h1 class="Explore-title">Explore More Options Now</h1>
-        <form class=Explore-form>
+        <form class="Explore-form">
+          <div class="Explore-form-loading">Loading...</div>
           <div class="Explore-form-field">
             <label>Location:</label>
-            <select>
-              <option value="">Any Location</option>
-              <option value="soliman-bay">Soliman Bay (1)</option>
-              <option value="tankah-bay">Tankah Bay (1)</option>
-              <option value="tulum">Tulum (1)</option>
+            <select onchange="window.location = this.value; document.getElementsByClassName('Explore-form')[0].classList.add('loading'); this.value = ''">
+              <option value="" selected>Any Location</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=akumal">Akumal</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=isla-holbox">Isla Holbox</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=isla-mujeres">Isla Mjueres</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=mahahual">Mahahual</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=maroma">Maroma</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=merida">Merida</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=north-akumal">North Akumal</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=playa-city-center">Playa City Center</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=playa-del-carmen">Playa del Carmen</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=playa-del-carmen-north">Playa del Carmen North</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=playa-secreto">Playa Secreto</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=playacar">Playacar</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=puerto-aventuras">Puerto Aventuras</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=puerto-morelos">Puerto Morelos</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=rio-lagartos">Rio Lagartos</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=sian-kaan">Sian Ka'an</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=soliman-bay">Soliman Bay</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=south-akumal">South Akumal</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=tankah-bay">Tankah Bay</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_location=tulum">Tulum</option>
             </select>
           </div>
           <div class="Explore-form-field">
             <label>Accommodation Type:</label>
-            <select>
-              <option value="">All Types</option>
-              <option value="villa">Villa (1)</option>
+            <select onchange="window.location = this.value; document.getElementsByClassName('Explore-form')[0].classList.add('loading'); this.value = ''">
+              <option value="" selected>All Types</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_accommodation=bungalow">Bungalow</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_accommodation=condo">Condo</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_accommodation=hotel">Hotel</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_accommodation=penthouse-condo">Penthouse Condo</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_accommodation=villa">Villa</option>
             </select>
           </div>
           <div class="Explore-form-field">
             <label>Number of Bedrooms:</label>
-            <select>
-              <option value="">Any</option>
-              <option value="two-bedroom">Two Bedroom (1)</option>
-              <option value="three-bedroom">Three bedroom (1)</option>
+            <select onchange="window.location = this.value; document.getElementsByClassName('Explore-form')[0].classList.add('loading'); this.value = ''">
+              <option value="" selected>Any</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=one-bedroom">One Bedroom</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=two-bedroom">Two Bedroom</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=three-bedroom">Three Bedroom</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=four-bedroom">Four Bedroom</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=four-bedroom">Five plus+ Bedrooms</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_number_of_bedrooms=studio">Studio</option>
             </select>
           </div>
           <div class="Explore-form-field">
             <label>Number of Guests:</label>
-            <select>
-              <option value="">Any # of Guests </option>
-              <option value="6-people">6 people (1)</option>
-              <option value="7-people">7 people (1)</option>
-              <option value="8-people">8 people (1)</option>
+            <select onchange="window.location = this.value; document.getElementsByClassName('Explore-form')[0].classList.add('loading'); this.value = ''">
+              <option value="" selected># of Guests </option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=2-people">2 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=3-people">3 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=4-people">4 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=5-people">5 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=6-people">6 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=7-people">7 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=8-people">8 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=9-people">9 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=10-people">10 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=12-people">12 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=14-people">14 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=16-people">16 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=18-people">18 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=20-people">20 people</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_occcupancy=20-people-number-of-guests">20+ people</option>
             </select>
           </div>
           <div class="Explore-form-field">
             <label>Price:</label>
-            <select>
+            <select onchange="window.location = this.value; document.getElementsByClassName('Explore-form')[0].classList.add('loading'); this.value = ''">
               <option value="">All - ($ USD)</option>
-              <option value="under-200-per-night">under $200 per night (1)</option>
-              <option value="under-300-per-night">under $300 per night (1)</option>
-              <option value="under-400-per-night">under $400 per night (2)</option>
-              <option value="under-500-per-night">under $500 per night (1)</option>
-              <option value="over-500-per-night">over $500 per night (2)</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=under-100-per-night">under $100 per night</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=under-200-per-night">under $200 per night</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=under-300-per-night">under $300 per night</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=under-400-per-night">under $400 per night</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=under-500-per-night">under $500 per night</option>
+              <option value="https://www.locogringo.com/property-search/?fwp_price=over-500-per-night">over $500 per night</option>
             </select>
           </div>
         </form>
-        <img class="Explore-believe" src="./images/we-believe-the-best-vacations@2x.png" width="277" height="120" alt="We believe the best vacationes start with talking to real people who know the area."
-        />
+        <div class="Explore-believe">
+          <picture>
+            <source media="(min-width: 800px)" srcset="./images/we-believe-the-best-vacations@2x.png">
+            <img src="./images/we-believe-the-best-vacations@2x-mobile.png" alt="We believe the best vacationes start with talking to real people who know the area."
+              width="277" height="120">
+          </picture>
+          <a class="Explore-explore-more-link" href="https://www.locogringo.com/property-search/">
+            <img src="./images/lupa.png" alt="lupa" width="50" />
+          </a>
+        </div>
       </aside>
 
-      <!-- List -->
       <section class="Properties">
         <ul class="Properties-list">
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/casa-akumal-sunrise/"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/akumal-casa-akumal-sunrise-vacation-rental-house-066@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -142,7 +186,8 @@
             </a>
           </li>
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/casa-de-los-suenos/"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/casa-de-los-suenos-featured@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -160,7 +205,8 @@
             </a>
           </li>
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/villa-san-francisco/"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/casa-san-francisco-171117-7043@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -178,7 +224,8 @@
             </a>
           </li>
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/casa-solymar/"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/casa-solymar-akumal-villa-rental-house-1871@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -196,7 +243,8 @@
             </a>
           </li>
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/villa-las-vigas/"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/las-vigas-akumal-villa-feature@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -214,7 +262,8 @@
             </a>
           </li>
           <li class="Properties-list-wrapper">
-            <a class="Properties-list-item" href="#" title="">
+            <a class="Properties-list-item" href="https://www.locogringo.com/mexico/accommodations/riviera-maya/villa-rentals/reef-house"
+              title="">
               <div class="Properties-list-item-picture" style="background-image: url('./images/properties/the-reef-house-49@3x.jpg')"></div>
               <div class="Properties-box">
                 <div class="Properties-box-price">
@@ -234,10 +283,7 @@
         </ul>
       </section>
     </main>
-
   </div>
-
-  <!-- END OF COPYING -->
 
 </body>
 
